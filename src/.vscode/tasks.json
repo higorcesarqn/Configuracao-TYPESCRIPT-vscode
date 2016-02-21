@@ -12,5 +12,6 @@ Verifique tambémse o comando tsc está funcionando na linhade comando. Este com
     "version": "0.1.0",
     "command": "tsc",
     "isShellCommand": true,
-    "showOutput": "never"
+    "showOutput": "silent",
+    "problemMatcher": "$tsc"
 }

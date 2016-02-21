@@ -1,15 +1,11 @@
-
- //Este arquivo será identificado pelo VSCode e suas opções de compilação serão utilizadas.
- // * module:  indica a forma como iremos carregar módulos quando estivermos trabalhando com vários arquivos separados.
- // * sourceMap:  indica se o arquivo “map” será criado o que ajudará no debug do TypeScript.
- // * target: configura a versão ECMAScript utilizada.
- // * watch: ao salvar o arquivo a alteração será percebida e o arquivo javascript será gerado novamente.
-
 {
-    "compilerOptions": {
-        "target": "ES5",
+     "compilerOptions": {
+        "target": "es5",
         "module": "amd",
         "sourceMap": true,
         "watch": true
-    }
+    },
+    "files": [
+        "app.ts"
+    ]
 }
