@@ -1,0 +1,16 @@
+/*
+para criar esse arquivo de configuração, aperte F1 e digite “configure”. Surge a opção Configure Task Runner semelhante.
+Apague e deixe somente as configurações mostrada abaixo.
+
+pressione CTRL+SHIFT+B, ou então aperte F1 e digite “run task build”,
+tsc será executado, o arquivo tsconfig.json será lido e os arquivos js e map serão criados. 
+
+Obs: Se os arquivos não forem criados, altere o atributo showOutput para always everifiqueo erro em questão.
+Verifique tambémse o comando tsc está funcionando na linhade comando. Este comando é adicionado ao sistema quando executamos: npm i typescript -g.
+*/
+{
+    "version": "0.1.0",
+    "command": "tsc",
+    "isShellCommand": true,
+    "showOutput": "never"
+}
